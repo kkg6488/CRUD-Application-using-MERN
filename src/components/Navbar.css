@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+  
+}
+
+.container {
+    max-width: 140rem;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightseagreen;
+
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+}
+li {
+    list-style: none;
+}
+a{
+  color: #ffff;
+  margin: 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+a:hover{
+  color: lightblue;
+}
